@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+.line-selected {
+    position: absolute;
+    right: 0;
+    top: 1px;
+    width: 2px;
+    height: 1.2em;
+    background: white;
+    animation: blink 1s steps(1) infinite;
+}
+
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
